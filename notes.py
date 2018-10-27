@@ -46,3 +46,5 @@ print (product)
 
 big_string = "The product was " + str(product)
 print(big_string)
+
+# Indexing (see string.py)
