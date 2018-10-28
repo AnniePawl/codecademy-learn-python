@@ -34,5 +34,9 @@ print ("Hi " + "number " + str(5))
 
 # Formatting with %
 # Use % to replace the %s placeholders with variables in parenthesis
+# Apparently this isnt really used anymore...
 name = "Mike"
-print ("Hi, I'm % % (name))
+print ("Hi, I'm %s %(name))
+
+# Formatting with .format()
+# More widely used now
