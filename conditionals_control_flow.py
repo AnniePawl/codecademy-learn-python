@@ -13,7 +13,7 @@
 # 'and' checks if both statements are True
 # 'or' checks if either statement is true
 # 'not' gives opposite of statement
-(3 < 4) and (5 == 5) 
+(3 < 4) and (5 == 5)
 # Order of Operations
 # Parenthesis () used to ensure expressions are evaluated in the right order
 # 'not' evaluated first
@@ -24,3 +24,9 @@
 # 'if' is a conditional statement that executes some specified code after checking if its expression is True
 # 'else' complements 'if'. The pair says, if this is true, run this indented block. If
 # 'elif' is short for else is. This statement is only checked if original if statement is false
+if this_might_be_true():
+  print "This really is true."
+elif that_might_be_true():
+  print "That is true."
+else:
+  print "None of the above."
