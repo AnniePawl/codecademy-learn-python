@@ -3,7 +3,6 @@
 # Store cost of each item
 # Calculate total cost
 
-
 cucumbers = 3
 cucumber_price = 3.25
 total = cucumbers * cucumber_price
